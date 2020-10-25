@@ -33,7 +33,7 @@ public class FirstActivitySorted implements Comparable <FirstActivitySorted> {
         return this.salary - employee.salary;
     }
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CustomExceptionActivity {
 		
 		FirstActivitySorted[] employees = new FirstActivitySorted[3];
 		 
@@ -50,5 +50,4 @@ public class FirstActivitySorted implements Comparable <FirstActivitySorted> {
 	    return String.format("(%s, %d)", name, salary);
 	}
 
-	
 }

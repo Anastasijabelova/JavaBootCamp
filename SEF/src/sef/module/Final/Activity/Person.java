@@ -19,10 +19,11 @@ public class Person {
 		return name;
 	}
 	
-		public void setName(String name) {
-			this.name = name;
+	public void setName(String name) throws CustomExceptionActivity {
+		if (name.matches(".*\\d.*")) throw new CustomExceptionActivity();
+        else this.name = name;
 	}
-
+		
 	public int getAge() {
 		return age;
 	}
