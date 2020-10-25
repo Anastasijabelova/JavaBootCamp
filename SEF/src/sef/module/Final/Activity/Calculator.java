@@ -1,6 +1,6 @@
-package sef.module17.sample;
-// Complete Code
-public class MyCalculator {
+package sef.module.Final.Activity;
+
+class MyCalculator {
 	
 	public int getSum(int a, int b) {
 		
@@ -19,3 +19,4 @@ public class MyCalculator {
 		return a / b;
 	}
 }
+

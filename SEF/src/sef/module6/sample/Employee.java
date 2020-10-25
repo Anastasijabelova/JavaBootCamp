@@ -1,14 +1,16 @@
 package sef.module6.sample;
 
-public class Employee_A extends Person_A{
+import sef.module.Final.Activity.Person;
 
-	//Attributes
+public class Employee extends Person {
+
+
 	private double salary;
 	private String title;
 	private String name;
 	
 	//Behavior - default constructor
-	public Employee_A(){ 
+	public Employee(){ 
 		System.out.println("I'm an Employee_A Constructor"); 
 	}
 	

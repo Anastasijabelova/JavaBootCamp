@@ -2,6 +2,7 @@ package sef.module8.activity;
 //Needs to be completed
 //This program accepts a user name and checks user's validity
 //The user name is checked against an array of names.
+import sef.module8.sample.CustomException;
 
 public class CustomExceptionActivityTest {
 
